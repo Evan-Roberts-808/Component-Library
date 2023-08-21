@@ -18,6 +18,8 @@
 /* Ubuntu */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
 /* Navigation 1 */
 
 .navbar-1 {
@@ -45,20 +47,50 @@
     }
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
 /* Navigation 2 */
 
 .navbar-2 {
-
+    background-color: #efefef;
 }
 
 .navbar-2-offcanvas {
+    background-color: #efefef;
+}
+
+.navbar-2-text {
+    font-weight: 500;
+    color: #2f2f2f;
+}
+
+.navbar-2-link {
     font-family: 'Open Sans', sans-serif;
+    color: #797979
+}
+
+.navbar-2-icons {
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-2-icon:hover {
+    color: #333333;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-2-icons-anchor {
+    color: #797979;
 }
 
 @media (max-width: 768px) { 
+    
     .navbar-2-logo {
         content: url('https://raw.githubusercontent.com/Evan-Roberts-808/Component-Library/114085227bb228a1561e9e2d67a1120ac483801a/.github/images/placeholder-imgs/placeholder-logo-small.svg')
     }
+
 }
 
 /* Navigation 3 */
